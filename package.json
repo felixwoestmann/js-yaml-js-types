@@ -8,7 +8,7 @@
     "module"
   ],
   "license": "MIT",
-  "repository": "nodeca/js-yaml-js-types",
+  "repository": "felixwoestmann/js-yaml-js-types",
   "files": [
     "index.js",
     "regexp.js",
