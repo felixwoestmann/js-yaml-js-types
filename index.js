@@ -1,12 +1,11 @@
-'use strict';
+"use strict";
 
+import fn from "./function.js";
+import undef from "./undefined.js";
+import regexp from "./regexp.js";
 
-var fn     = require('./function');
-var undef  = require('./undefined');
-var regexp = require('./regexp');
+export { fn as function };
+export { undef as undefined };
+export { regexp };
 
-module.exports.function  = fn;
-module.exports.undefined = undef;
-module.exports.regexp    = regexp;
-
-module.exports.all = [ fn, undef, regexp ];
+export const all = [fn, undef, regexp];
